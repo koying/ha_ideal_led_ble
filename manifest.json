@@ -1,0 +1,13 @@
+{
+  "domain": "ideal_led_ble",
+  "name": "iDeal LED BLE",
+  "config_flow": true,
+  "documentation": "https://www.home-assistant.io/integrations/led_ble/",
+  "dependencies": ["bluetooth"],
+  "codeowners": ["@koying"],
+  "bluetooth": [
+    { "local_name": "ISP-*" }
+  ],
+  "version": "0.1",
+  "iot_class": "local_polling"
+}
